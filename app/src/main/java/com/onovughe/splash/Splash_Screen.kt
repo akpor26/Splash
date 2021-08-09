@@ -13,6 +13,12 @@ class Splash_Screen : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_screen)
 
+        //Step 1 Create Empty Activity for the splash screen
+        //Step 2 Make layout relative for the splash xml
+        //Step 3 Splash kt code below
+        //Go to Value folder and create style xml
+        //Step 5 go manifest for change the position of splash activity
+
         Handler().postDelayed({
             startActivity(Intent (this, MainActivity::class.java))
             finish()
